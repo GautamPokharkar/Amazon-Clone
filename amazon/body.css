@@ -1,0 +1,253 @@
+ body{
+    margin:0px;
+    padding: 0px;
+}
+
+head1
+{
+    width:1520px;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:black;
+    
+}
+
+.Logo
+{
+    color:white;
+    width:60.73px;
+}
+
+.location
+{
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.oni 
+{
+    margin-left:18%;
+    margin-top: 0%;
+    margin-bottom: 3;
+}
+
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 620px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+  }
+  .select-search {
+    background: #4f504e;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+  }
+  .search-input {
+    max-width: 600px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
+  .search-icon {
+    max-width: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    color: #000;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+.Flag
+{
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flag1
+{
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.Name
+{
+    color:white;
+}
+
+.name2
+{
+    background-color: black;
+}
+
+.Return
+{
+    color:white;
+}
+
+.Cart
+{
+    color:white;
+    margin:4%;
+}
+
+.material-symbols-outlined
+{
+    width:40px;
+    height:40px;
+    align-content: center;
+}
+
+
+
+.foot1
+{
+    background-color: #232f3e;
+    align-items: center;
+    text-align: center;
+    color:white; height:25px; 
+    
+}
+
+.foot2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height:50px; 
+}
+
+.name1
+{
+    color:white;
+    margin:3.4%
+}
+
+.name2
+{
+    color:white;
+}
+
+.name3
+{
+    color:white;
+    margin:7%
+}
+
+/* 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+head1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.Logo img {
+    width: 80px;
+}
+
+.location, .nav-search, .Flag, .Name, .Return, .Cart {
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-search {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.select-search, .search-input, .search-icon {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+.search-icon {
+    background: #febd68;
+    color: #000;
+    padding: 5px;
+}
+
+.Flag img {
+    width: 30px;
+}
+
+.Name, .Return, .Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.foot1 {
+    background-color: #232f3e;
+    text-align: center;
+    padding: 5px;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.name1, .name2, .name3 {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-search {
+        flex-direction: column;
+    }
+
+    .select-search, .search-input, .search-icon {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .foot2 {
+        flex-direction: column;
+        text-align: center;
+    }
+} */

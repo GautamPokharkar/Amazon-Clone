@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #050505;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 60.73px;
+    max-width: 100%;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px;
+    color:white;
+}
+
+.location .material-symbols-outlined {
+    margin-right: 5px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    margin: 0 10px;
+    
+}
+
+.select-search {
+    margin-right: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.flag img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.name1,
+.name2 {
+    margin-right: 10px;
+}
+
+footer {
+    background: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.foot1 {
+    margin-bottom: 10px;
+    background-color: #232f3e;
+    align-items: center;
+    text-align: center;
+    color: white;
+  
+}
+
+/* .foot2 {
+    background-color: #232f3e;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+    
+} */
+
+.foot2 div {
+    cursor: pointer;
+    background-color: #050505;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-search {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .flag {
+        margin-top: 10px;
+    }
+
+    .name {
+        margin-top: 10px;
+    }
+}
+
+
